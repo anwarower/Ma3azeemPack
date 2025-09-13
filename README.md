@@ -26,23 +26,43 @@ This app allows you to sort a list of names by asking you to make pairwise compa
 
 ### Prerequisites
 
-If you don't have Python and pip installed:
+If you don't have Python, pip, or git installed:
 
 **On macOS:**
 ```bash
-# Install Python (includes pip)
-brew install python
+# Install Homebrew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Python (includes pip) and git
+brew install python git
 ```
 
 **On Ubuntu/Debian:**
 ```bash
 sudo apt update
-sudo apt install python3 python3-pip
+sudo apt install python3 python3-pip git
 ```
 
 **On Windows:**
 - Download Python from [python.org](https://www.python.org/downloads/)
-- Make sure to check "Add Python to PATH" during installation
+- Download Git from [git-scm.com](https://git-scm.com/download/win)
+- Make sure to check "Add Python to PATH" during Python installation
+- Use default settings during Git installation
+
+### Getting the Code
+
+If you're new to git, here's how to get the code:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/anwarower/Ma3azeemPack.git
+   cd Ma3azeem
+   ```
+
+2. **Or download as ZIP:**
+   - Click the "Code" button on GitHub
+   - Select "Download ZIP"
+   - Extract the files to your desired location
 
 ### Install Dependencies
 
